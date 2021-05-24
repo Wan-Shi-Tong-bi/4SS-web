@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootViewPatient"
+    tools:context=".PatientActivity">
+
+    <TextView
+        android:id="@+id/textID2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textVor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textNach2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonAddEintrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hinzufügen" />
+
+    <ListView
+        android:id="@+id/listViewEintrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

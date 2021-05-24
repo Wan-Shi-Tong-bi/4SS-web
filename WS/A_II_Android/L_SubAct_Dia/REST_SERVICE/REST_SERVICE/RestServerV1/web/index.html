@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inhaltsverzeichnis</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2 style="color:#3B23EE">
+            EIN KLEINES INHALTSVERZEICHNIS WELCHES EUCH DIE URL`S ZEIGT UND EIN WENIG ERKLÄRT
+        </h2>
+        <h2 style="color:#3B23EE">
+            STANDARD URL FÜR JENES VERZEICHNIS
+        </h2>
+        <h2 style="color:#3B23EE">
+            http://localhost:8080/RestServerV1
+        </h2>
+        <br>
+        <table border style="background:#B3E5FF" >
+            <tr style="color:#E41515">
+                <td >
+                    <h3>
+                        URL´s
+                    </h3>
+                </td>
+                <td >
+                    <h3>
+                        kleine Beschreibung+Beispiel
+                    </h3>
+                </td>
+                <td >
+                    <h3>
+                        Rückgabeformat
+                    </h3>
+                </td>
+            </tr>
+            <tr style="color: #787975">        
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICD/{Code}/X 
+                    </h4> 
+                </td>
+                <td>
+                    <h4>
+                        beschreibt Krankheiten + Auflistung
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>       
+            </tr>
+            <tr  style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICD/{Code}/J
+                    </h4>
+                </td>
+                <td>
+                    <h4> 
+                        A00.- = Cholera
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+
+            <tr style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICD/Suche/{Suchtext}/X 
+                    </h4>
+                </td>
+                <td rowspan=2>
+                    <h4>
+                        Bei Eingabe eines Schlagwortes bekommt man alle Beschreibungen die jenes Wort beinhalten
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>
+
+            </tr>
+            <tr style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICD/Suche/{Suchtext}/J 
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+            <tr style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICD/X
+                    </h4>
+                </td>
+                <td rowspan="2">
+                    <h4>
+                        Es werden ALLE bestehenden Codes ausgegeben die die Datenbank beinhaltet
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML 
+                    </h4>
+                </td>
+            </tr>
+            <tr style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICD/J
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICF/{Code}/X
+                    </h4>
+                </td>
+                <td>    
+                    <h4>
+                        klassifiziert Funktionsfaehigkeiten, Behinderungen und die Gesundheit / ergaenzt ICD
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICF/{Code}/J
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        b110 = Funktion des Bewusstseins
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICF/Suche/{Suchtext}/X
+                    </h4>
+                </td>
+                <td rowspan=2>
+                    <h4>
+                        Bei Eingabe eines Schlagwortes bekommt man alle Beschreibungen die jenes Wort beinhalten
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICF/Suche/{Suchtext}/J
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICF/X
+                    </h4>
+                </td>
+                <td rowspan="2">
+                    <h4>
+                        Es werden ALLE bestehenden Codes ausgegeben die die Datenbank beinhaltet
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/ICF/J
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+
+            <tr  style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/LOINC/{Code}/X
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        Identifizierung von klinischen Messparametern
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>
+            </tr>
+
+            <tr style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/LOINC/{Code}/J
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        4544-3 = Haematocrit
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+
+            <tr  style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/LOINC/Suche/{Suchtext}/X
+                    </h4>
+                </td>
+                <td rowspan =2>
+                    <h4>
+                        Bei Eingabe eines Schlagwortes bekommt man alle Beschreibungen die jenes Wort beinhalten
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>
+            </tr>
+
+            <tr style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/LOINC/Suche/{Suchtext}/J 
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+            <tr style="color: #787975">
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/LOINC/J
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        Es werden ALLE bestehenden Codes ausgegeben die die Datenbank beinhaltet
+                    </h4>
+                </td> 
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/TNM/{Praefix}/{Groesse}
+                        /{Cgroesse}/{Lymphknoten}/{CLymphknoten}/{Metastasten}/{Cmetatastasen}/X
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        Beschreibung der Krebserkrankung
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>
+            </tr> 
+
+            <tr>
+                <td>
+                    <h4>   
+                        http://localhost:8080/RestServerV1/resources/TNM/{Praefix}/{Groesse}
+                        /{Cgroesse}/{Lymphknoten}/{CLymphknoten}/{Metastasten}/{Cmetatastasen}/J
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        a/T3/C1/N2/C1/M1/C2
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h4>        
+                        http://localhost:8080/RestServerV1/resources/TNM/{Groesse}/{Lymphknoten}/{Metastasen}/X
+                    </h4>
+                </td>
+                <td rowspan="2">
+                    <h4>         
+                        T1/N1/M0 = Tumor is bis 2 cm gross, 1-3 Lymphknoten befallen, keine Fernmetastasen
+                    </h4>
+                </td>
+                <td>
+                    <h4>     
+                        XML
+                    </h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h4>     
+                        http://localhost:8080/RestServerV1/resources/TNM/{Groesse}/{Lymphknoten}/{Metastasen}/J
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4> 
+                        http://localhost:8080/RestServerV1/resources/TNM/Suche{Suchtext}/X 
+                    </h4>
+                </td>
+
+                <td rowspan='2'>
+                    <h4>
+                        Bei Eingabe eines Schlagwortes bekommt man alle Beschreibungen die jenes Wort beinhalten
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/TNM/Suche{Suchtext}/J 
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        JSON
+                    </h4>
+                </td> 
+            </tr>    
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/TNM/X
+                    </h4>
+                </td>
+                <td rowspan="2">
+                    <h4>
+                        Es werden ALLE bestehenden Codes ausgegeben die die Datenbank beinhaltet
+                    </h4>
+                </td>
+                <td>
+                    <h4>
+                        XML
+                    </h4>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>
+                        http://localhost:8080/RestServerV1/resources/TNM/J
+                    </h4>
+                </td>
+                <td>
+                    JSON
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

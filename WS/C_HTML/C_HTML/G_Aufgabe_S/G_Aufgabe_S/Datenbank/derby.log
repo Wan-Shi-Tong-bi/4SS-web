@@ -1,0 +1,16 @@
+Fri Jun 17 08:24:27 CEST 2016 : Apache Derby Network Server - 10.8.3.0 - (1405108) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Fri Jun 17 08:24:29 CEST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.3.0 - (1405108): instance a816c00e-0155-5d08-34ca-ffff892fa1f3 
+on database directory C:\Users\Pascal\Desktop\HTL\3.Klasse\Programmieren_3.Klasse\REXT_Server_Patientenakte\Datenbank\Database  with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Program%20Files/Java/jdk1.7.0_51/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_20-b26
+user.dir=C:\Program Files\Java\jdk1.7.0_51\db
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=C:\Users\Pascal\Desktop\HTL\3.Klasse\Programmieren_3.Klasse\REXT_Server_Patientenakte\Datenbank
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jun 17 08:48:46 CEST 2016: Shutting down Derby engine

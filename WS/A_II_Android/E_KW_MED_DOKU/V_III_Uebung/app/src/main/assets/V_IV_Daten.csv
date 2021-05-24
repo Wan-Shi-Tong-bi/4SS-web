@@ -1,0 +1,18 @@
+DRG;Bezeichnung;mittlere Verweildauer;erster Tag Abschlag;erster Tag zusaetzliches Geld
+A01B;Lebertransplantation ohne kombinierte Dnndarmtransplantation mit Beatmung;16.701;10;50
+A01C;Lebertransplantation ohne kombinierte Dnndarmtransplantation;11.023;7;42
+A02Z;Transplantation von Niere und Pankreas;11.961;8;44
+A03A;Lungentransplantation mit Beatmung;34.194;14;63
+A03B;Lungentransplantation ohne Beatmung;14.67;8;40
+A04B;Knochenmarktransplantation;30.106;16;69
+A04C;Knochenmarktransplantation;18.397;13;61
+A04D;Knochenmarktransplantation ;16.894;12;56
+A04E;Knochenmarktransplantation ;14.697;10;50
+A05A;Herztransplantation mit Beatmung;40.768;26;98
+A05B;Herztransplantation ohne Beatmung ;31.815;32;118
+A06A;Beatmung groeßer 1799 Stunden mit intensivmedizinischer Komplexbehandlung ;65.943;0;131
+A06B;Beatmung > 1799 Stunden mit komplexer OR-Prozedur oder Polytrauma;47.432;0;120
+A07A;Beatmung groesser 999 Stundenmit intensivmedizinischer Komplexbehandlung;44.014;24;93
+A07D;Beatmung groesser 999 Stunden ohne komplexe OR-Prozedur;25.387;0;74
+A07E;Beatmung groesser 999 Stunden ohne komplexe OR-Prozedur;22.764;0;74
+A09A;Beatmung > 499 Stunden oder > 249 Stunden mit int. Komplexbeh. > 2352/1932/2208 P., mit hochkomplexem Eingriff oder kompl. OR-Proz. und Alter < 16 Jahre, mit int. Komplexbeh. > 1764/1932/- P. oder mit sehr kompl. Eingr. und int. Komplexbeh. > -/2208/- P.;34.963;18;74

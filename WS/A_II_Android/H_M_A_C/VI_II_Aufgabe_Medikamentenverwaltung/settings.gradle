@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "VI_II_Aufgabe_Medikamentenverwaltung"

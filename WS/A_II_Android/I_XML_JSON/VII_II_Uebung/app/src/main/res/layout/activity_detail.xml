@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B8DAD7"
+        android:foregroundTint="#8E0303"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingTop="5dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/patTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patient" />
+
+        <TextView
+            android:id="@+id/patVor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/patNach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/patStr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/patNr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/patPZL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/patOrt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9FD3CE"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingTop="5dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/arztTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arzt" />
+
+        <TextView
+            android:id="@+id/arztVor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/arztNach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/arztStr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/arztNr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/arztPZL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/arztOrt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#92C3BF" />
+</LinearLayout>

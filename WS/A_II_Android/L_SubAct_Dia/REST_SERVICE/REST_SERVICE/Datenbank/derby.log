@@ -1,0 +1,37 @@
+Tue May 18 11:32:41 CEST 2021 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Tue May 18 11:32:42 CEST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0179-7ed1-fd6c-000021d40506 
+on database directory C:\Users\jerem\Jeremias\Schule\4_Klasse\MGIN\Uebungen\A_II_Android\L_SubAct_Dia\REST_SERVICE\REST_SERVICE\Datenbank\C_Aufgabe_test with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Users/jerem/Jeremias/Schule/4_Klasse/MGIN/Uebungen/A_II_Android/L_SubAct_Dia/javadb/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\jerem\Jeremias\Schule\4_Klasse\MGIN\Uebungen\A_II_Android\L_SubAct_Dia\javadb\javadb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\jerem\Jeremias\Schule\4_Klasse\MGIN\Uebungen\A_II_Android\L_SubAct_Dia\REST_SERVICE\REST_SERVICE\Datenbank
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 18 11:32:43 CEST 2021:
+Shutting down instance a816c00e-0179-7ed1-fd6c-000021d40506 on database directory C:\Users\jerem\Jeremias\Schule\4_Klasse\MGIN\Uebungen\A_II_Android\L_SubAct_Dia\REST_SERVICE\REST_SERVICE\Datenbank\C_Aufgabe_test with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Tue May 18 11:32:43 CEST 2021 Thread[DRDAConnThread_3,5,main] (DATABASE = C_Aufgabe_test), (DRDAID = {2}), Database 'C_Aufgabe_test' shutdown.
+----------------------------------------------------------------
+Tue May 18 11:32:56 CEST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 6ede40af-0179-7ed1-fd6c-000021d40506 
+on database directory C:\Users\jerem\Jeremias\Schule\4_Klasse\MGIN\Uebungen\A_II_Android\L_SubAct_Dia\REST_SERVICE\REST_SERVICE\Datenbank\C_Aufgabe_test with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Users/jerem/Jeremias/Schule/4_Klasse/MGIN/Uebungen/A_II_Android/L_SubAct_Dia/javadb/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_221-b11
+user.dir=C:\Users\jerem\Jeremias\Schule\4_Klasse\MGIN\Uebungen\A_II_Android\L_SubAct_Dia\javadb\javadb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\jerem\Jeremias\Schule\4_Klasse\MGIN\Uebungen\A_II_Android\L_SubAct_Dia\REST_SERVICE\REST_SERVICE\Datenbank
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 18 13:15:09 CEST 2021: Shutting down Derby engine
+----------------------------------------------------------------
+Tue May 18 13:15:09 CEST 2021:
+Shutting down instance 6ede40af-0179-7ed1-fd6c-000021d40506 on database directory C:\Users\jerem\Jeremias\Schule\4_Klasse\MGIN\Uebungen\A_II_Android\L_SubAct_Dia\REST_SERVICE\REST_SERVICE\Datenbank\C_Aufgabe_test with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+----------------------------------------------------------------

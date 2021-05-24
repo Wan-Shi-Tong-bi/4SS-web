@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Medverwaltung</string>
+    <string name="version_info">Verisons-Info</string>
+    <string name="delete">Löschen</string>
+</resources>

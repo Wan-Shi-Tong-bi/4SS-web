@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+        <link rel="stylesheet" href="bootstrap.css"/>
+        <script src="bootstrap.bundle.js"></script>
+    </h:head>
+    <h:body>
+        <div class="container-fluid">
+        <h:link class="btn btn-success" value="zurück" outcome="back"/><br/>
+        
+        <h1>Personen-Liste</h1>
+        <h:dataTable class="table" value="#{personen.personenList}" var="p">
+            <h:column>
+                <f:facet name="header">ID</f:facet>
+                <h:outputText value="#{p.id}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header">Vorname</f:facet>
+                <h:outputText value="#{p.vorname}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header">Nachname</f:facet>
+                <h:outputText value="#{p.nachname}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header">Image</f:facet>
+                <h:graphicImage id="image-id" value="/image/#{p.id}"
+                                height="100px" width="100px" alt="Image not found"></h:graphicImage>
+            </h:column>
+        </h:dataTable>
+        </div>
+    </h:body>
+</html>
+

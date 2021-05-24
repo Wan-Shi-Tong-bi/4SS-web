@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Patientenverwaltung</string>
+    <string name="btn_zeigen">Zeigen</string>
+</resources>

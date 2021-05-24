@@ -1,0 +1,7 @@
+{
+    "name": "F_Aufgabe_Patientenkartei_Formular", "version": "1.0.0", "main": "path/to/main.css", "ignore": [
+        ".jshintrc", "**/*.txt"
+    ], "dependencies": {
+    }, "devDependencies": {
+    }
+}

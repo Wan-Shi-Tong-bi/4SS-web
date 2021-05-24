@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".CaseActivity">
+
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tag des Unfalls (yyyy-mm-dd)" />
+
+    <EditText
+        android:id="@+id/editDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uhrzeit" />
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textOrt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ort" />
+
+    <EditText
+        android:id="@+id/editOrt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textPLZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLZ" />
+
+    <EditText
+        android:id="@+id/editPLZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strasse" />
+
+    <EditText
+        android:id="@+id/editStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textNr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nr" />
+
+    <EditText
+        android:id="@+id/editNr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verletzte" />
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Andere Sachschäden als an den Fahrzeugen A und B" />
+
+    <TextView
+        android:id="@+id/textWitness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Zeugen"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/addWitness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hinzufügen" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

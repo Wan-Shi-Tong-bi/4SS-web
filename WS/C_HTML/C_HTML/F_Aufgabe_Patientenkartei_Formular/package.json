@@ -1,0 +1,8 @@
+{
+    "name": "F_Aufgabe_Patientenkartei_Formular",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "jerem",
+    "contributors": [],
+    "dependencies": {}
+}

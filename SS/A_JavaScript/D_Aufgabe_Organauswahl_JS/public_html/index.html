@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body onload="selectionChanged()">
+        
+        <h1>Organauswahl</h1>
+        <select name="organs" id="organs" onchange="selectionChanged()"> 
+            <option value="Niere">Niere</option>
+            <option value="Herz">Herz</option>
+            <option value="Leber">Leber</option>
+        </select>
+            
+        <br/>
+        <br/>
+        <table >
+            <tr>
+                <th>
+                   Bild 
+                </th>
+                <th>
+                    lateinische Bezeichnung
+                </th>
+                <th>
+                    Beschreibung
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <img id="bild" src="" alt="">
+                </td>
+                <td>
+                    <p id="lat"></p>
+                </td>
+                <td>
+                    <p id="beschreibung"></p>
+                </td>
+            </tr>
+        </table>
+        
+        
+    </body>
+</html>

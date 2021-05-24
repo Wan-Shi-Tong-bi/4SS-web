@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Patientenformula</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>Patientenstammdaten</p>
+        <form method="POST" action="http://localhost:8081/REST_Server_Patientenakte/res/test">
+        <table border="1px">
+            <caption>Patientenstammdaten</caption>
+            <tr>
+                <td>
+                    Pat. ID
+                </td>
+                <td colspan="2">
+                    <input type="text" name="id"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Vorname
+                </td>
+                <td colspan="2">
+                    <input type="text" name="vorname"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nachname
+                </td>
+                <td colspan="2">
+                    <input type="text" name="nachname"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Geschlecht
+                </td>
+                <td colspan="2">
+                    <select name="geschlecht">
+                        <option value="männlich">männlich</option>
+                        <option value="weiblich">weiblich</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Geburtsdatum
+                </td>
+                <td colspan="2">
+                    <input type="date" name="geburtsdatum">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Anmerkung
+                </td>
+                <td colspan="2">
+                    <textarea name="anmerkung" rows="10" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <input type="submit" value="senden">
+                </td>
+                <td>
+                    <input type="reset" value="löschen">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
