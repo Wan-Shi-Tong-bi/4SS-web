@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+        <link rel="stylesheet" href="bootstrap.css"/>
+
+    </h:head>
+    <h:body>
+        <h:form id ="myForm" enctype="multipart/form-data">
+            bezeichnung: <h:inputText class="form-control" id="bezeichnung" value="#{car.bezeichnung}"/>
+            Baujahr: <h:inputText class="form-control" id="baujahr" value="#{car.baujahr}"/><br/>
+            color: <h:inputText class="form-control" id="color" value="#{car.color}"/><br/>
+
+            <h:commandButton class="btn btn-primary" action="#{data.insertData(car.bezeichnung,car.baujahr,car.color)}" value="Speichern">
+                <f:ajax execute="@form" render ="tobo"/>
+            </h:commandButton>
+            <br/>
+        </h:form>
+        <h:dataTable id ="tobo" class="table" value="#{data.listCars}" var="list">
+            <h:column>
+                <f:facet name="header">ID</f:facet>
+                <h:outputText value="#{list.id}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header">bezeichnung</f:facet>
+                <h:outputText value="#{list.bezeichnung}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header">baujahr</f:facet>
+                <h:outputText value="#{list.baujahr}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header">color</f:facet>
+                <h:outputText value="#{list.color}"/>
+            </h:column>
+        </h:dataTable>
+    </h:body>
+</html>
+

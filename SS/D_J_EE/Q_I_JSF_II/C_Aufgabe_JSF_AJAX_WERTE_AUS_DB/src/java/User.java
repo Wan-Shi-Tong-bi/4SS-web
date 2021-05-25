@@ -36,7 +36,7 @@ public class User {
     
     public void valueSetzen(int id){
         try {
-            Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/C_Aufgabe_test", "db", "db");
+            Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/kuk", "kuk", "kuk");
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT param1, value1, param2, value2, param3, value3 FROM test where benutzer_id = " + id);
             

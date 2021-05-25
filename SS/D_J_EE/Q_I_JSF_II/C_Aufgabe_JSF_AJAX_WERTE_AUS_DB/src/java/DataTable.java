@@ -29,7 +29,7 @@ public class DataTable {
     public List<User> getUserList(){
         userList = new ArrayList<>();
         try {
-            Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/C_Aufgabe_test", "db", "db");
+            Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/kuk", "kuk", "kuk");
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT id, vorname, nachname FROM benutzer");
             while(rs.next()){
